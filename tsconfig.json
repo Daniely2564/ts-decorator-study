@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base",
+  // override.
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "experimentalDecorators": true
+  },
+  // tell ts how to find the files
+  "files": [],
+  "include": [],
+  "exclude": [],
+  "typeAcquisition": {},
+  "compileOnSave": true
+}
